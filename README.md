@@ -5,7 +5,7 @@ In just two days, I took on the challenge of building and deploying a Social Med
 
 Here’s an overview of the journey:
 
-📊 Data Preparation: From Raw to Ready
+# 📊 Data Preparation: From Raw to Ready
 Working with real-world data often means tackling noise, imbalance, and inconsistency. The dataset was no exception—it was messy, skewed, and full of missing or irrelevant entries.
 
 I implemented advanced preprocessing techniques like text normalization, stopword removal, and tokenization to clean the data.
