@@ -12,7 +12,7 @@ I implemented advanced preprocessing techniques like text normalization, stopwor
 To address the severe class imbalance, I employed SMOTE (Synthetic Minority Oversampling Technique) and stratified sampling, ensuring the model would generalize effectively across all toxicity levels.
 The result was a well-structured dataset that laid a strong foundation for robust model training.
 
-🧠 Model Development: Harnessing Bidirectional Context
+# 🧠 Model Development: Harnessing Bidirectional Context
 For this project, I leveraged the power of Bidirectional LSTM (BiLSTM) networks combined with a feed-forward neural network to capture contextual relationships in text from both past and future tokens.
 
 The model was trained for 1000 epochs with optimizations like learning rate schedulers and early stopping, which ensured convergence without overfitting.
@@ -23,10 +23,10 @@ A major challenge in building such systems is integrating real-time data streams
 
 Using Apify’s robust APIs, I seamlessly integrated live comment feeds from Instagram.
 This step provided real-world data for validation, bridging the gap between theory and application.
-☁️ Deployment on AWS: From Local to Cloud
+# ☁️ Deployment on AWS: From Local to Cloud
 Deploying the model was another layer of complexity that required careful orchestration:
 
-Dockerization:
+# Dockerization:
 Created a lightweight Docker image containing the trained model, dependencies, and the Streamlit-based interface for interaction.
 Pushed the Docker image to Docker Hub for easy accessibility.
 AWS EC2 Setup:
@@ -36,7 +36,7 @@ Real-Time Access:
 The deployed system is now live, hosted on AWS, capable of processing Instagram comments in real time to predict toxicity levels with high accuracy.
 This deployment showcases the seamless synergy between containerization and cloud infrastructure for creating scalable, real-time solutions.
 
-Key Takeaways
+# Key Takeaways
 This project deepened my understanding of:
 
 Advanced text preprocessing and handling imbalanced datasets.
