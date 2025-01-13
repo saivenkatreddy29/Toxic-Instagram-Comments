@@ -38,7 +38,6 @@ This deployment showcases the seamless synergy between containerization and clou
 
 # Key Takeaways
 This project deepened my understanding of:
-
 Advanced text preprocessing and handling imbalanced datasets.
 Architecting and optimizing deep learning models for NLP tasks.
 The importance of robust API integration for real-time systems.
